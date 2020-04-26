@@ -15,6 +15,10 @@
     "lint:staged": "lint-staged --no-stash",
     "size": "npm run build:esm && size-limit"
   },
+  "files": [
+    "lib",
+    "math/divmod"
+  ],
   "entries": [
     "math/divmod"
   ],
