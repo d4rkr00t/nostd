@@ -2,3 +2,5 @@
 package-lock.json
 coverage
 .nyc_output
+lib
+math
