@@ -17,10 +17,12 @@
   },
   "files": [
     "lib",
-    "math/divmod"
+    "math/divmod",
+    "array/binary-search"
   ],
   "entries": [
-    "math/divmod"
+    "math/divmod",
+    "array/binary-search"
   ],
   "keywords": [
     "std",
@@ -46,6 +48,10 @@
     {
       "path": "./lib/esm/math/divmod.js",
       "limit": "45 B"
+    },
+    {
+      "path": "./lib/esm/array/binary-search.js",
+      "limit": "122 B"
     }
   ],
   "lint-staged": {

@@ -1,0 +1,6 @@
+{
+  "name": "@nostd/lib/array/binary-search",
+  "main": "../../lib/cjs/array/binary-search.js",
+  "module": "../../lib/esm/array/binary-search.js",
+  "types": "../../lib/cjs/array/binary-search.d.js"
+}
