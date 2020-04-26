@@ -10,6 +10,9 @@
     "lint:staged": "lint-staged --no-stash",
     "size": "npm run build:esm && size-limit"
   },
+  "entries": [
+    "math/divmod"
+  ],
   "keywords": [
     "std",
     "stdlib",
@@ -31,7 +34,7 @@
   },
   "size-limit": [
     {
-      "path": "./lib/esm/divmod.js",
+      "path": "./lib/esm/math/divmod.js",
       "limit": "45 B"
     }
   ],
