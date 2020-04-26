@@ -1,0 +1,23 @@
+{
+  "name": "nostd",
+  "version": "0.0.0",
+  "description": "Not standard standart libabry for JavaScript / TypeScript",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "std",
+    "stdlib",
+    "typescript",
+    "standard library"
+  ],
+  "author": "Stanislav Sysoev <@d4rkr00t>",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^3.7.1",
+    "lint-staged": "^10.1.7",
+    "prettier": "^2.0.5",
+    "size-limit": "^4.4.5",
+    "typescript": "^3.8.3"
+  }
+}
