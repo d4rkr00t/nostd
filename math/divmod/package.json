@@ -1,0 +1,6 @@
+{
+  "name": "@nostd/lib/math/divmod",
+  "main": "../../lib/cjs/math/divmod.js",
+  "module": "../../lib/esm/math/divmod.js",
+  "types": "../../lib/cjs/math/divmod.d.js"
+}
