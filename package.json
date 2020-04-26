@@ -5,6 +5,9 @@
   "scripts": {
     "test": "ava",
     "test:cov": "nyc --reporter=lcov --reporter=text npm test",
+    "ci:test:cov": "nyc --reporter=lcov yarn test",
+    "ci:build": "npm run build",
+    "ci:size": "size-limit",
     "build": "npm run build:cjs && npm run build:esm && npm run build:entries",
     "build:cjs": "tsc --project ./tsconfig.json",
     "build:esm": "tsc --project ./tsconfig.json --target ES2019 --module ESNext --outDir './lib/esm'",
