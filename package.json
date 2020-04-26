@@ -4,6 +4,7 @@
   "description": "Non-standard standart libabry for JavaScript / TypeScript",
   "scripts": {
     "test": "ava",
+    "test:cov": "nyc --reporter=lcov --reporter=text npm test",
     "build": "npm run build:cjs && npm run build:esm",
     "build:cjs": "tsc --project ./tsconfig.json",
     "build:esm": "tsc --project ./tsconfig.json --target ES2019 --module ESNext --outDir './lib/esm'",
